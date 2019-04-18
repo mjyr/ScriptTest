@@ -11,7 +11,7 @@ public class Test : MonoBehaviour {
         int[] array = {10,20,30,40,50};
 
         // for文を使い、配列の各要素の値を順番に表示してください
-        for (int i = 0; i< 5; i++) {
+        for (int i = 0; i< array.Length; i++) {
             Debug.Log(array[i]);
         }
 
